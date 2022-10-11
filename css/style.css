@@ -1,0 +1,30 @@
+.container {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(56, 255, 255);
+}
+.headerdiv {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.logonav {
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav {
+    width: 60%;
+}
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.search {
+    background-color: blue;
+}
