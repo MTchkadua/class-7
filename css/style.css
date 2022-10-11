@@ -21,10 +21,19 @@ nav {
     width: 60%;
 }
 ul {
+    font-size: 20px;
     width: 100%;
     display: flex;
     justify-content: space-around;
 }
-.search {
-    background-color: blue;
+.section1 {
+    width: 90%;
+    margin: 0 auto;
+}
+.section1img {
+    width: 100%;
+}
+.h1 {
+    padding-top: 138px;
+    font-size: 40px;
 }
