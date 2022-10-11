@@ -111,6 +111,9 @@ ul {
     justify-content: space-around;
     align-items: center;
 }
+.addres1 {
+    display: none;
+}
 h3 {
     font-size: 20px;
     color: white;
@@ -120,5 +123,37 @@ h3 {
     font-size: 13px;
 }
 .insta {
-    padding-left: 30px;
+    padding-left:30px;
+}
+
+
+@media (max-width:480px) {
+    nav {
+        display: none;
+    }
+    .footer {
+        padding-top: 20px;
+        height: 247px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 15px;
+    }
+    .footerlogo {
+    display: none;
+    }
+    .addres1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .addres2 {
+        display: none;
+    }
+    .footer div {
+        justify-content: center;
+        
+    }
+
 }
